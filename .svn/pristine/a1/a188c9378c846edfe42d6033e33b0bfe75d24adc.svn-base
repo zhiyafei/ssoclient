@@ -1,0 +1,19 @@
+package demo.sso.client;
+
+import demo.sso.client.model.SSOUser;
+
+/**
+ * 令牌管理工具
+ * 
+ * @author preach
+ *
+ */
+public class TokenManager {
+
+    private TokenManager() {
+    }
+
+    public static SSOUser validate(String vt) {
+        return null;
+    }
+}
